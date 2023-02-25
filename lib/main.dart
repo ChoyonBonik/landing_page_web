@@ -150,17 +150,23 @@ class SmallChild extends StatelessWidget {
                 style: TextStyle(fontSize: 40, color: Color(0xFF8591B0)),
                 children: <TextSpan>[
                   TextSpan(
-                      text: 'Britu',
+                      text: 'Abedok',
                       style: TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: 40,
-                          color: Colors.black87)),
+                          color: Color(0xffbe047d))),
                 ],
               ),
             ),
             Padding(
               padding: const EdgeInsets.only(left: 12.0, top: 20),
-              child: Text("LET’S EXPLORE THE WORLD"),
+              child: Text("LET'S ACHIVE THE GOAL"),
+            ),
+            SizedBox(
+              height: 30,
+            ),
+            Center(
+              child: Image.asset('assets/images/apply.png')
             ),
           ],
         ),
